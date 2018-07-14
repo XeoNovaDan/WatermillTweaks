@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- research tab -->
+	<ResearchTabDef>
+		<defName>XNDResearchTab</defName>
+		<label>XND's Mods</label>
+	</ResearchTabDef>
+
+	<!-- base research project -->
+	<ResearchProjectDef Name="XNDResearchProjectBase" Abstract="True">
+		<tab>XNDResearchTab</tab>
+	</ResearchProjectDef>
+
+</Defs>

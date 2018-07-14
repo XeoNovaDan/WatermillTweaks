@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <IncidentDef>
+        <defName>TurbulentWaters</defName>
+        <label>turbulent waters</label>
+        <category>Misc</category>
+        <targetTypes>
+            <li>Map_PlayerHome</li>
+        </targetTypes>
+        <workerClass>WatermillTweaks.IncidentWorker_TurbulentWaters</workerClass>
+        <gameCondition>TurbulentWaters</gameCondition>
+        <letterDef>NegativeEvent</letterDef>
+        <letterLabel>Turbulent waters</letterLabel>
+        <letterText>Due to some heavy rainfall upstream or some other disturbances, the river is flowing more quickly than normal. Watermill generators will produce more power but will also get damaged over time.</letterText>
+        <baseChance>0.5</baseChance>
+        <minRefireDays>15</minRefireDays>
+        <durationDays>
+            <min>1</min>
+            <max>3</max>
+        </durationDays>
+    </IncidentDef>
+
+</Defs>

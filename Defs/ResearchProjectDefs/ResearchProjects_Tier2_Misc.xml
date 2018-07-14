@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--================================ Tier 2: Basic electricity ====================================-->
+
+	<ResearchProjectDef ParentName="XNDResearchProjectBase">
+		<defName>Hydroelectricity</defName>
+		<label>hydroelectricity</label>
+		<description>Build watermill generators to harness the kinetic energy from flowing bodies of water.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

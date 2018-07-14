@@ -1,0 +1,4 @@
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Assemblies\WatermillTweaks.dll
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.csprojAssemblyReference.cache
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.csproj.CoreCompileInputs.cache
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.dll

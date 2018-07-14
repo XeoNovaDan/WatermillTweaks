@@ -1,0 +1,8 @@
+E:\Documents\My RimWorld Mods\V1.0\BetterWatermillGenerators\Assemblies\BetterWatermillGenerators.dll
+E:\Documents\My RimWorld Mods\V1.0\BetterWatermillGenerators\Source\BetterWatermillGenerators\obj\Debug\BetterWatermillGenerators.csprojAssemblyReference.cache
+E:\Documents\My RimWorld Mods\V1.0\BetterWatermillGenerators\Source\BetterWatermillGenerators\obj\Debug\BetterWatermillGenerators.csproj.CoreCompileInputs.cache
+E:\Documents\My RimWorld Mods\V1.0\BetterWatermillGenerators\Source\BetterWatermillGenerators\obj\Debug\BetterWatermillGenerators.dll
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Assemblies\BetterWatermillGenerators.dll
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Source\BetterWatermillGenerators\obj\Debug\BetterWatermillGenerators.csprojAssemblyReference.cache
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Source\BetterWatermillGenerators\obj\Debug\BetterWatermillGenerators.csproj.CoreCompileInputs.cache
+E:\Documents\My RimWorld Mods\V1.0\WatermillTweaks\Source\BetterWatermillGenerators\obj\Debug\BetterWatermillGenerators.dll

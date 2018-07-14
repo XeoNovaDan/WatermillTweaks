@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[XND] Watermill Tweaks</name>
+	<author>XeoNovaDan</author>
+	<url>https://ludeon.com/forums/index.php?topic=29503.0</url>
+	<targetVersion>1.0.0</targetVersion>
+	<description>Changes the watermill generator in several different ways:
+	* It now requires a research project called 'Hydroelectricity'
+	* Increases its base power production from 1100W to 1400W
+	* Its power production decreases if outdoor temperatures are below 10°C (50°F) or above 90°C (194°F)
+	* Adds a new incident called 'Turbulent waters' which increases watermill power production by 50% but also damages them over time</description>
+</ModMetaData>
