@@ -47,7 +47,8 @@ namespace WatermillTweaks
             __result *= PowerOutputFactorFromTemperatureCurve.Evaluate(__instance.parent.MapHeld.mapTemperature.OutdoorTemp);
 
             // Turbulent Waters
-            __result *= GameCondition_TurbulentWaters.WatermillPowerGenFactor;
+            if (__instance.parent.MapHeld.GameConditionManager.ConditionIsActive(BWG_GameConditionDefOf.TurbulentWaters))
+                __result *= GameCondition_TurbulentWaters.WatermillPowerGenFactor;
         }
 
         public static void PostfixCompInspectStringExtra(CompPowerPlantWater __instance, ref string __result)
@@ -59,7 +60,8 @@ namespace WatermillTweaks
 
             // Outdoor Temperature
             float tempPowerProductionFactor = PowerOutputFactorFromTemperatureCurve.Evaluate(__instance.parent.MapHeld.mapTemperature.OutdoorTemp);
-            __result += "\n" + "BadTemperature".Translate().CapitalizeFirst() + ": x" + tempPowerProductionFactor.ToStringPercent();
+            if (tempPowerProductionFactor != 1f)
+                __result += "\n" + "BadTemperature".Translate().CapitalizeFirst() + ": x" + tempPowerProductionFactor.ToStringPercent();
         }
 
         private static Season GetWatermillMapSeason(Thing powerPlant)
