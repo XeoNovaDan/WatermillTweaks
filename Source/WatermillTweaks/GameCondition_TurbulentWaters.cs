@@ -13,13 +13,13 @@ namespace WatermillTweaks
 
         public const float WatermillPowerGenFactor = 1.5f;
 
-        private List<Building> watermillGeneratorsToAffect = new List<Building>();
+        private const int WatermillListUpdateInterval = 600;
 
-        private int ticksToNextValueUpdate = 0;
+        private List<Building> watermillGeneratorsToAffect = new List<Building>();
 
         private int nextWatermillDamageTicks = 0;
 
-        private static readonly IntRange BaseTicksBetweenWatermillDamage = new IntRange(1200, 3600);
+        private static readonly IntRange BaseTicksBetweenWatermillDamage = new IntRange (1200, 3600);
 
         private static readonly SimpleCurve RandomDamageAmountCurve = new SimpleCurve
         {
@@ -36,7 +36,6 @@ namespace WatermillTweaks
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.Look(ref ticksToNextValueUpdate, "ticksToNextValueUpdate", 0);
             Scribe_Values.Look(ref nextWatermillDamageTicks, "nextWatermillDamageTicks", 0);
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
@@ -53,8 +52,7 @@ namespace WatermillTweaks
 
         private void UpdateWaterGeneratorsToAffect(bool forceUpdate = false)
         {
-            ticksToNextValueUpdate--;
-            if (ticksToNextValueUpdate <= 0 || forceUpdate)
+            if (Find.TickManager.TicksGame % WatermillListUpdateInterval == 0 || forceUpdate)
             {
                 watermillGeneratorsToAffect.Clear();
                 for (int i = 0; i < AffectedMaps.Count; i++)
@@ -69,7 +67,6 @@ namespace WatermillTweaks
                         }
                     }
                 }
-                ticksToNextValueUpdate = 600;
             }
         }
 

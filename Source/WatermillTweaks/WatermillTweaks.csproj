@@ -50,14 +50,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BetterWatermillGeneratorsSettings.cs" />
     <Compile Include="BWG_GameConditionDefOf.cs" />
     <Compile Include="GameCondition_TurbulentWaters.cs" />
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="IncidentWorker_TurbulentWaters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RiverDefOf.cs" />
-    <Compile Include="SettingsHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
