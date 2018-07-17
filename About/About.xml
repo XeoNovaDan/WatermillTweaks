@@ -4,9 +4,9 @@
 	<author>XeoNovaDan</author>
 	<url>https://ludeon.com/forums/index.php?topic=29503.0</url>
 	<targetVersion>1.0.0</targetVersion>
-	<description>Current Version: v1.1 (16th July 2018)\n\nChanges the watermill generator in several different ways:
-	* It now requires a research project called 'Hydroelectricity'
+	<description>Current Version: v1.1.1 (17th July 2018)\n\nChanges the watermill generator in several different ways:
 	* Increases its base power production from 1100W to 1400W
+	* Power production is directly influenced by the season
 	* Its power production decreases if temperatures are bad
 	* Adds a new incident which affects watermill generators, both good and bad</description>
 </ModMetaData>
