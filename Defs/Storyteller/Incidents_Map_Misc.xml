@@ -5,9 +5,9 @@
         <defName>TurbulentWaters</defName>
         <label>turbulent waters</label>
         <category>Misc</category>
-        <targetTypes>
+        <targetTags>
             <li>Map_PlayerHome</li>
-        </targetTypes>
+        </targetTags>
         <workerClass>WatermillTweaks.IncidentWorker_TurbulentWaters</workerClass>
         <gameCondition>TurbulentWaters</gameCondition>
         <letterDef>NegativeEvent</letterDef>
