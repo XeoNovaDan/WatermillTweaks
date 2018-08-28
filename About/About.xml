@@ -3,8 +3,8 @@
 	<name>[XND] Watermill Tweaks</name>
 	<author>XeoNovaDan</author>
 	<url>https://ludeon.com/forums/index.php?topic=29503.0</url>
-	<targetVersion>1.0.0</targetVersion>
-	<description>Current Version: v1.1.2 (29th July 2018)\n\nChanges the watermill generator in several different ways:
+	<targetVersion>0.19.0</targetVersion>
+	<description>Current Version: v1.1.3 (28th August 2018)\n\nChanges the watermill generator in several different ways:
 	* Increases its base power production from 1100W to 1400W
 	* Power production is directly influenced by the season
 	* Its power production decreases if temperatures are bad
