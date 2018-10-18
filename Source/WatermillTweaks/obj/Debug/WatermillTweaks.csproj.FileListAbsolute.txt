@@ -6,3 +6,7 @@ E:\Documents\My RimWorld Mods\B19\WatermillTweaks\Assemblies\WatermillTweaks.dll
 E:\Documents\My RimWorld Mods\B19\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.csprojAssemblyReference.cache
 E:\Documents\My RimWorld Mods\B19\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.csproj.CoreCompileInputs.cache
 E:\Documents\My RimWorld Mods\B19\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.dll
+E:\Documents\GitHub\WatermillTweaks\Assemblies\WatermillTweaks.dll
+E:\Documents\GitHub\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.csprojAssemblyReference.cache
+E:\Documents\GitHub\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.csproj.CoreCompileInputs.cache
+E:\Documents\GitHub\WatermillTweaks\Source\WatermillTweaks\obj\Debug\WatermillTweaks.dll

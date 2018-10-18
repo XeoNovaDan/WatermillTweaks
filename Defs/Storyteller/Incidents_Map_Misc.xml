@@ -10,7 +10,7 @@
         </targetTags>
         <workerClass>WatermillTweaks.IncidentWorker_TurbulentWaters</workerClass>
         <gameCondition>TurbulentWaters</gameCondition>
-        <letterDef>NegativeEvent</letterDef>
+        <letterDef>NeutralEvent</letterDef>
         <letterLabel>Turbulent waters</letterLabel>
         <letterText>Due to some heavy rainfall upstream or some other disturbances, the river is flowing more quickly than normal. Watermill generators will produce more power but will also get damaged over time.</letterText>
         <baseChance>0.5</baseChance>

@@ -20,7 +20,7 @@ namespace WatermillTweaks
                 {
                     if (map != null)
                     {
-                        RiverDef river = map.TileInfo.Rivers[(map.TileInfo.Rivers.Count - 1)].river;
+                        RiverDef river = map.GetRiver();
                         if (river == RiverDefOf.River)
                             finalCommonality = def.baseChance;
                         else if (river == RiverDefOf.LargeRiver)
