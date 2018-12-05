@@ -33,7 +33,9 @@ namespace WatermillTweaks
         {
             switch (season)
             {
-                case (Season.PermanentWinter | Season.Winter):
+                case (Season.PermanentWinter):
+                    return PowerProductionFactorWinter;
+                case (Season.Winter):
                     return PowerProductionFactorWinter;
                 case Season.Fall:
                     return PowerProductionFactorFall;
